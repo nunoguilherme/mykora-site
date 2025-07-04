@@ -1,10 +1,10 @@
 /* Mykora landing - final palette + dark theme  */
 :root{
     /* brand colours */
-    --bg:#0E211C;          /* evergreen page background   */
+    --bg:#46582F;          /* dark olive page background  */
     --gold:#C8A44C;        /* headings, accents, logo     */
     --olive:#46582F;       /* buttons / interactive       */
-    --text:#E0DBC8;        /* body copy, light contrast   */
+    --text:#C8A44C;        /* body copy, now gold         */
   
     /* sizing helpers */
     --max:1060px;
@@ -111,4 +111,3 @@
     .split{flex-direction:column-reverse;text-align:center;}
     .split img{margin-bottom:1rem;}
   }
-  
