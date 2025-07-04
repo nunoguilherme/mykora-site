@@ -1,10 +1,10 @@
 /* Mykora landing - final palette + dark theme  */
 :root{
     /* brand colours */
-    --bg:#0E211C;          /* evergreen page background   */
-    --gold:#C8A44C;        /* headings, accents, logo     */
-    --olive:#46582F;       /* buttons / interactive       */
-    --text:#E0DBC8;        /* body copy, light contrast   */
+    --bg:#556B2F;          /* dark olive green background */
+    --gold:#FFD700;        /* goldish yellow text & logo  */
+    --olive:#556B2F;       /* reused for interactive elts */
+    --text:#FFD700;        /* letters in goldish yellow   */
   
     /* sizing helpers */
     --max:1060px;
@@ -40,13 +40,13 @@
     background:var(--olive);
     border:none;
     border-radius:var(--radius);
-    color:#fff;
+    color:var(--text);
     font-weight:600;
     cursor:pointer;
     transition:.25s;
     text-decoration:none;
   }
-  .btn:hover{background:var(--gold);color:#000;}
+  .btn:hover{background:var(--gold);color:var(--bg);}
   
   /* product cards ------------------------------------------------------------ */
   .cards{
